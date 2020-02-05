@@ -1,0 +1,189 @@
+{
+    "request": {
+        "departureAirport": {
+            "requestedCode": "LCY",
+            "fsCode": "LCY"
+        },
+        "arrivalAirport": {
+            "requestedCode": "TXL",
+            "fsCode": "TXL"
+        },
+        "codeType": {},
+        "departing": true,
+        "date": {
+            "year": "2020",
+            "month": "1",
+            "day": "29",
+            "interpreted": "2020-01-29"
+        },
+        "url": "https://api.flightstats.com/flex/schedules/rest/v1/json/from/LCY/to/TXL/departing/2020/01/29"
+    },
+    "scheduledFlights": [
+        {
+            "carrierFsCode": "BA",
+            "flightNumber": "TEST2- flight 1",
+            "departureAirportFsCode": "LCY",
+            "arrivalAirportFsCode": "TXL",
+            "stops": 0,
+            "departureTime": "2020-01-29T08:20:00.000",
+            "arrivalTime": "2020-01-29T11:05:00.000",
+            "flightEquipmentIataCode": "E90",
+            "isCodeshare": false,
+            "isWetlease": true,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "wetleaseOperatorFsCode": "CJ",
+            "referenceCode": "1117-1083373--"
+        },
+        {
+            "carrierFsCode": "BA",
+            "flightNumber": "TEST2- flight ",
+            "departureAirportFsCode": "LCY",
+            "arrivalAirportFsCode": "TXL",
+            "stops": 0,
+            "departureTime": "2020-01-29T13:15:00.000",
+            "arrivalTime": "2020-01-29T15:55:00.000",
+            "flightEquipmentIataCode": "E90",
+            "isCodeshare": false,
+            "isWetlease": true,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "wetleaseOperatorFsCode": "CJ",
+            "referenceCode": "1117-1083356--"
+        },
+        {
+            "carrierFsCode": "BA",
+            "flightNumber": "TEST2- flight 3",
+            "departureAirportFsCode": "LCY",
+            "arrivalAirportFsCode": "TXL",
+            "stops": 0,
+            "departureTime": "2020-01-29T18:30:00.000",
+            "arrivalTime": "2020-01-29T21:10:00.000",
+            "flightEquipmentIataCode": "E90",
+            "isCodeshare": false,
+            "isWetlease": true,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "wetleaseOperatorFsCode": "CJ",
+            "referenceCode": "1117-1083349--"
+        },
+        {
+            "carrierFsCode": "BA",
+            "flightNumber": "8743",
+            "departureAirportFsCode": "LCY",
+            "arrivalAirportFsCode": "TXL",
+            "stops": 0,
+            "departureTime": "2020-01-29T08:50:00.000",
+            "arrivalTime": "2020-01-29T11:35:00.000",
+            "flightEquipmentIataCode": "E90",
+            "isCodeshare": false,
+            "isWetlease": true,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "wetleaseOperatorFsCode": "CJ",
+            "referenceCode": "1117-1083323--"
+        }
+    ],
+    "appendix": {
+        "airlines": [
+            {
+                "fs": "CJ",
+                "iata": "CJ",
+                "icao": "CFE",
+                "name": "BA Cityflyer",
+                "active": true
+            },
+            {
+                "fs": "BA",
+                "iata": "BA",
+                "icao": "BAW",
+                "name": "British Airways",
+                "phoneNumber": "1-800-AIRWAYS",
+                "active": true
+            }
+        ],
+        "airports": [
+            {
+                "fs": "LCY",
+                "iata": "LCY",
+                "icao": "EGLC",
+                "faa": "",
+                "name": "London City Airport",
+                "city": "London",
+                "cityCode": "LON",
+                "stateCode": "EN",
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/London",
+                "weatherZone": "",
+                "localTime": "2020-01-27T11:25:45.778",
+                "utcOffsetHours": 0.0,
+                "latitude": 51.50438,
+                "longitude": 0.049365,
+                "elevationFeet": 15,
+                "classification": 2,
+                "active": true
+            },
+            {
+                "fs": "TXL",
+                "iata": "TXL",
+                "icao": "EDDT",
+                "faa": "",
+                "name": "Tegel Airport",
+                "city": "Berlin",
+                "cityCode": "BER",
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Berlin",
+                "weatherZone": "",
+                "localTime": "2020-01-27T12:25:45.778",
+                "utcOffsetHours": 1.0,
+                "latitude": 52.553944,
+                "longitude": 13.291722,
+                "elevationFeet": 121,
+                "classification": 1,
+                "active": true
+            }
+        ],
+        "equipments": [
+            {
+                "iata": "E90",
+                "name": "Embraer 190",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": true
+            }
+        ]
+    }
+}
