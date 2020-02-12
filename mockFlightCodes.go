@@ -16,15 +16,16 @@ type FlightCodeList struct{
 
 }
 
-func mockCities()([6]string) {
+func mockCities()([7]string) {
 
-	var mockWeather[6] string	
+	var mockWeather[7] string	
 	mockWeather[0] = "Lisbon"
 	mockWeather[1] = "Paris"
 	mockWeather[2] = "Moscow"
 	mockWeather[3] = "New York"
 	mockWeather[4] = "Rome"
 	mockWeather[5] = "Madrid"
+	mockWeather[6] = "Brussels"
 	//fmt.Println(mockWeather)
 	return mockWeather
 }
@@ -81,7 +82,7 @@ func getFlightCodes()([]string) {
 func listOfURL()([]string) {
 	var flightUrlList []string
 	flightList := getFlightCodes()
-	departure = "YXU"
+	departure = "LHR"
 	var date string = "2020/03/15"
 	for _,item := range flightList{
 		arrival = item
@@ -216,7 +217,7 @@ func multipleFlightMockAppend2() ([]string) {
 }
 
 func displayFlightCodes() {
-	var flightCodes []string = multipleFlightMockAppend2()
+	var flightCodes []string = appendCities()
 	fmt.Println(flightCodes)
 
 }
